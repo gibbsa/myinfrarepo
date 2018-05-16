@@ -1,0 +1,42 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "westcentralus"
+        },
+        "virtualMachineName": {
+            "value": "spoke141JB"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_B2s"
+        },
+        "adminUsername": {
+            "value": "management"
+        },
+        "virtualNetworkName": {
+            "value": "Spoke1.4"
+        },
+        "networkInterfaceName": {
+            "value": "spoke14jb126"
+        },
+        "networkSecurityGroupName": {
+            "value": "spoke14JB-nsg"
+        },
+        "adminPassword": {
+            "value": "Myb@dpassword#1"
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "rbcpoc10diag525"
+        },
+        "diagnosticsStorageAccountType": {
+            "value": "Standard_LRS"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "Microsoft.Storage/storageAccounts/rbcpoc10diag525"
+        },
+        "subnetName": {
+            "value": "PrivateSubnetA"
+        }
+    }
+}
