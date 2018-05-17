@@ -1,4 +1,3 @@
----
 AssetType: Story
 Scope: Scope:0
 Name: My Story
