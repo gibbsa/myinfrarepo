@@ -1,5 +1,15 @@
-Parameters:
-  -adminUsername:
-    -value: AdminUser
-  -adminPassword:
-    -value: B@dpassword1
+rom: Story
+execute: Reactivate
+---
+AssetType: Story
+Scope: Scope:0
+Name: My Story
+Children:
+- AssetType: Test
+  Name: My Test
+- AssetType: Task
+  Name: My Task
+---
+from: Story
+set:
+ Status: Don
