@@ -1,7 +1,4 @@
-AssetType: Story
-Scope: Scope:0
-Name: My Story
-Children:
+Parameter:
 - AssetType: Test
   Name: My Test
 - AssetType: Task
