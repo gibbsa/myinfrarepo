@@ -1,5 +1,5 @@
--Parameters
-  -adminUsername
-    value: AdminUser
-  -adminPassword
-    value: B@dpassword1
+Parameters:
+  -adminUsername:
+    -value: AdminUser
+  -adminPassword:
+    -value: B@dpassword1
